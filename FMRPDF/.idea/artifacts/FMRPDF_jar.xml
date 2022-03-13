@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="FMRPDF:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FMRPDF_jar</output-path>
+    <root id="archive" name="FMRPDF.jar">
+      <element id="module-output" name="FMRPDF" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/pdfbox-app-2.0.25.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
