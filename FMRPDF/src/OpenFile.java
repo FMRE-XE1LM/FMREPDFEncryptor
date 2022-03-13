@@ -45,7 +45,7 @@ public class OpenFile extends JFrame {
                         System.out.println("PDF Document encrypted Successfully.");
                         document.save(selectedFile.getPath());
                         document.close();
-                        JOptionPane.showMessageDialog(OPN_FILE_BTN, "Archivo encriptado.");
+                        JOptionPane.showMessageDialog(OPN_FILE_BTN, "Archivo encriptado.");//MESSAGE WITH OK BUTTON
                     }
                 }catch (Exception err){
                     System.out.println(err.getMessage());
